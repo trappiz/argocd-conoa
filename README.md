@@ -34,9 +34,9 @@ Sync!
 This is the same as running:
 
 ```bash
-#helm upgrade --install ingress-nginx ingress-nginx \
-#  --repo https://kubernetes.github.io/ingress-nginx \
-#  --namespace ingress-nginx --create-namespace
+helm upgrade --install ingress-nginx ingress-nginx \
+  --repo https://kubernetes.github.io/ingress-nginx \
+  --namespace ingress-nginx --create-namespace
 ```
 
 ## Create argocd ingress
